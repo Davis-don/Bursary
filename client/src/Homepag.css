@@ -1,0 +1,140 @@
+@media (max-width:540px){
+    .Overall-homepage-container{
+    position:relative;
+    width: 100vw;
+    height: 100vh;
+    }
+    .homepage-background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: +1;
+    }
+    .homepage-opacity-controller{
+  position: absolute;
+  z-index: +2;
+  top:0px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+    }
+    .Login-homepage-container{
+    position: absolute;
+    z-index: +3;
+    background-color: white;
+    width: 80vw;
+    top: 50%;
+left: 50%;
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+border-radius: 20px;
+padding: 20px;
+    }
+}
+@media screen and (min-width:540px) and (max-width:780px){
+    .Overall-homepage-container{
+        position:relative;
+        width: 100vw;
+        height: 100vh;
+        }
+        .homepage-background{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        z-index: +1;
+        }
+        .homepage-opacity-controller{
+      position: absolute;
+      z-index: +2;
+      top:0px;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      opacity: 0.5;
+        }
+        .Login-homepage-container{
+        position: absolute;
+        z-index: +3;
+        background-color: white;
+        width: 80vw;
+        top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 20px;
+    padding: 20px;
+        }
+}
+@media screen and (min-width:780px){
+    .Overall-homepage-container{
+        position:relative;
+        width: 100vw;
+        height: 100vh;
+        }
+        .homepage-background{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        z-index: +1;
+        }
+        .homepage-opacity-controller{
+      position: absolute;
+      z-index: +2;
+      top:0px;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      opacity: 0.5;
+        }
+        .Login-homepage-container{
+        position: absolute;
+        z-index: +3;
+        background-color: white;
+        width: 80vw;
+        top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 20px;
+    padding: 20px;
+        }
+}
+@media screen and (min-width:540px) and (max-width:780px){
+    .Overall-homepage-container{
+        position:relative;
+        width: 100vw;
+        height: 100vh;
+        }
+        .homepage-background{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        z-index: +1;
+        }
+        .homepage-opacity-controller{
+      position: absolute;
+      z-index: +2;
+      top:0px;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      opacity: 0.5;
+        }
+        .Login-homepage-container{
+        position: absolute;
+        z-index: +3;
+        background-color: white;
+        width: 80vw;
+        top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 20px;
+    padding: 20px;
+        }
+}
