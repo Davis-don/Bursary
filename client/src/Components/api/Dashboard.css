@@ -1,0 +1,190 @@
+.message-container{
+width: max-content;
+}
+@media (max-width:540px){
+    .overall-dashboard-container{
+        position: relative;
+     width: 100vw;
+     height: 100vh;
+     padding: 20px;
+     background-image: linear-gradient(to bottom right, rgb(29, 2, 67), rgb(98, 0, 255));
+
+    }
+.dashboard-header{
+    position:relative;
+    z-index: +1;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.dashboard-logo-title {
+    font-family: "Carattere", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: x-large;
+  }
+  .dashboard-body{
+padding: 10px;
+position: absolute;
+z-index: +1;
+
+  }
+  .dashboard-card-holders{
+
+  }
+  .dashboard-card{
+    width: 85vw;
+    height: 200px;
+    padding: 10px;
+  }
+  .reservation-number{
+width: max-content;
+padding: 10px;
+margin: auto;
+background-image: linear-gradient(to bottom right, rgb(8, 1, 18), rgb(21, 2, 52));
+
+  }
+  .dasboard-sidebar{
+    position: absolute;
+    z-index: +1;
+width: 60vw;
+height: 85vh;
+background-color: white;
+  }
+  .reservation-ul{
+padding: 20px;
+  }
+  .reservation-ul li{
+font-size: larger;
+border-bottom: 1px solid black;
+padding: 10px;
+  }
+  .dashboard-card-reservation{
+    padding: 10px;
+  }
+}
+@media screen and (min-width:540px) and (max-width:780px){
+    .overall-dashboard-container{
+        position: relative;
+     width: 100vw;
+     height: 100vh;
+     padding: 20px;
+     background-image: linear-gradient(to bottom right, rgb(29, 2, 67), rgb(98, 0, 255));
+
+    }
+.dashboard-header{
+    position:relative;
+    z-index: +1;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.dashboard-logo-title {
+    font-family: "Carattere", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: x-large;
+  }
+  .dashboard-body{
+padding: 10px;
+position: absolute;
+z-index: +1;
+
+  }
+  .dashboard-card-holders{
+
+  }
+  .dashboard-card{
+    width: 85vw;
+    height: 200px;
+    padding: 10px;
+  }
+  .reservation-number{
+width: max-content;
+padding: 10px;
+margin: auto;
+background-image: linear-gradient(to bottom right, rgb(8, 1, 18), rgb(21, 2, 52));
+
+  }
+  .dasboard-sidebar{
+    position: absolute;
+    z-index: +1;
+width: 60vw;
+height: 85vh;
+background-color: white;
+  }
+  .reservation-ul{
+padding: 20px;
+  }
+  .reservation-ul li{
+font-size: larger;
+border-bottom: 1px solid black;
+padding: 10px;
+  }
+  .dashboard-card-reservation{
+    padding: 10px;
+  }
+
+}
+@media screen and (min-width:780px){
+    .overall-dashboard-container{
+        position: relative;
+     width: 100vw;
+     height: 100vh;
+     padding: 20px;
+     background-image: linear-gradient(to bottom right, rgb(29, 2, 67), rgb(98, 0, 255));
+
+    }
+.dashboard-header{
+    position:relative;
+    z-index: +1;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.dashboard-logo-title {
+    font-family: "Carattere", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: x-large;
+  }
+  .dashboard-body{
+padding: 10px;
+position: absolute;
+z-index: +1;
+
+  }
+  .dashboard-card-holders{
+
+  }
+  .dashboard-card{
+    width: 85vw;
+    height: 200px;
+    padding: 10px;
+  }
+  .reservation-number{
+width: max-content;
+padding: 10px;
+margin: auto;
+background-image: linear-gradient(to bottom right, rgb(8, 1, 18), rgb(21, 2, 52));
+
+  }
+  .dasboard-sidebar{
+    position: absolute;
+    z-index: +1;
+width: 60vw;
+height: 85vh;
+background-color: white;
+  }
+  .reservation-ul{
+padding: 20px;
+  }
+  .reservation-ul li{
+font-size: larger;
+border-bottom: 1px solid black;
+padding: 10px;
+  }
+  .dashboard-card-reservation{
+    padding: 10px;
+  }
+}

@@ -1,0 +1,81 @@
+/* .Bursary-approve{
+background-color: white;
+width: 80vw;
+height: max-content;
+padding: 20px;
+border-radius: 20px;
+margin: auto;
+}
+.table-approve{
+width: 100%;
+}
+th,td{
+    padding: 10px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+} */
+@media (max-width:540px){
+.dashboard-body{
+width: 90vw;
+}
+.overall-dash-card-holders{
+width: 100%;
+display: grid;
+grid-template-columns: repeat( auto-fit, minmax(150px, 1fr) );
+gap: 10px;
+}
+.dash-div{
+height: max-content;
+padding: 20px;
+border-radius: 10px;
+}
+.item-no-value{
+width: max-content;
+margin: auto;
+font-size: 30px;
+}
+}
+@media screen and (min-width:540px) and (max-width:780px){
+    .dashboard-body{
+        width: 90vw;
+        }
+        .overall-dash-card-holders{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+        gap: 10px;
+        }
+        .dash-div{
+        height: max-content;
+        padding: 20px;
+        border-radius: 10px;
+        }
+        .item-no-value{
+        width: max-content;
+        margin: auto;
+        font-size: 30px;
+        }
+
+}
+@media screen and (min-width:780px){
+    .dashboard-body{
+        width: 90vw;
+        }
+        .overall-dash-card-holders{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+        gap: 10px;
+        }
+        .dash-div{
+        height: max-content;
+        padding: 20px;
+        border-radius: 10px;
+        }
+        .item-no-value{
+        width: max-content;
+        margin: auto;
+        font-size: 30px;
+        }
+
+}
